@@ -4,6 +4,7 @@
 -- * override the configuration of LazyVim plugins
 return {
   -- change trouble config
+  { "ThePrimeagen/git-worktree.nvim" },
   {
     "folke/trouble.nvim",
     -- opts will be merged with the parent spec

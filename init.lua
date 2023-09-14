@@ -11,7 +11,7 @@ vim.opt.rtp:prepend(vim.env.LAZY or lazypath)
 
 require("lazy").setup({
   ui = {
-    wrap = true,
+    wrap = false,
   },
 
   spec = {

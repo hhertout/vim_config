@@ -10,6 +10,10 @@ vim.api.nvim_create_autocmd({ "FocusGained", "TermClose", "TermLeave" }, {
   command = "checktime",
 })
 
+-- vim.api.nvim_create_autocmd({ "FileType" }, {
+--   command = "dbout setlocal nofoldenable",
+-- })
+
 -- Highlight on yank
 vim.api.nvim_create_autocmd("TextYankPost", {
   group = augroup("highlight_yank"),
